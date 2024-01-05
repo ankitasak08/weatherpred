@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model = pickle.load(open(r'C:\Users\Pramod  Sakharkar\Desktop\weatherpred\weatherapp.pkl', 'rb'))
+model = pickle.load(open('weatherapp.pkl', 'rb'))
 
 def predict(input_features):
 
